@@ -7,9 +7,10 @@ By harnessing the capabilities of machine learning, this project aims to enhance
 
 <br>
 
-**Used Technologies:** Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
+➲ **Used Technologies:** <br>
+Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
 <br><br>
-**Demo (Live Preview):** <a href="" target="_blank"></a> 
+➲ **Demo (Live Preview):** <a href="" target="_blank"></a> 
 <br><br>
-**Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
+➲ **Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
 <br>
