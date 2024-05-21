@@ -10,7 +10,5 @@ By harnessing the capabilities of machine learning, this project aims to enhance
 ➲ **Used Technologies:** <br>
 Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
 <br><br>
-➲ **Demo (Live Preview):** <a href="" target="_blank"></a> 
-<br><br>
 ➲ **Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
 <br>
