@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 import os
 import sys
+import sklearn
 
 # Configure the page
 st.set_page_config(page_title="Diabetes Predictor", layout="wide")
