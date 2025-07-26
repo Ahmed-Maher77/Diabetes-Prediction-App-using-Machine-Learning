@@ -3,13 +3,42 @@ import pickle
 import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
+import os
+import sys
+
+# Configure the page
+st.set_page_config(page_title="Diabetes Predictor", layout="wide")
 
 # Link CSS File
-with open ('style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+try:
+    with open ('style.css') as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+except FileNotFoundError:
+    st.warning("CSS file not found, using default styling")
 
 # Load the model from the saved file
-Data = pickle.load(open(r'Diabetes-Prediction-ML-Model.sav', 'rb'))
+try:
+    # Try multiple possible paths for the model file
+    possible_paths = [
+        'Diabetes-Prediction-ML-Model.sav',
+        os.path.join(os.path.dirname(__file__), 'Diabetes-Prediction-ML-Model.sav'),
+        os.path.join(os.getcwd(), 'Diabetes-Prediction-ML-Model.sav')
+    ]
+    
+    model_loaded = False
+    for model_path in possible_paths:
+        if os.path.exists(model_path):
+            Data = pickle.load(open(model_path, 'rb'))
+            model_loaded = True
+            break
+    
+    if not model_loaded:
+        st.error("Model file 'Diabetes-Prediction-ML-Model.sav' not found. Please ensure the model file is in the same directory as this app.")
+        st.stop()
+        
+except Exception as e:
+    st.error(f"Error loading model: {str(e)}")
+    st.stop()
 
 # Heading of the Web App
 st.title('Diabetes Prediction Web App')
