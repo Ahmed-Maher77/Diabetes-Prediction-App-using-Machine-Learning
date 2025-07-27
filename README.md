@@ -24,7 +24,7 @@ Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matpl
 
 ## 👀 Website Preview:
 <a href="https://ai-diabetes-predictor-app.streamlit.app/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/525827a6-ab63-4dd2-8afe-85b8ffc68514" alt="website preview - UI Mockup" width="400">
 </a>
 
 <hr>
