@@ -8,6 +8,9 @@ import sys
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
 
+# Display scikit-learn version for debugging
+st.sidebar.info(f"scikit-learn version: {sklearn.__version__}")
+
 # Configure the page
 st.set_page_config(page_title="Diabetes Predictor", layout="wide")
 
@@ -31,9 +34,22 @@ def load_model():
         
         for model_path in possible_paths:
             if os.path.exists(model_path):
-                with open(model_path, 'rb') as f:
-                    model = pickle.load(f)
-                return model
+                try:
+                    with open(model_path, 'rb') as f:
+                        model = pickle.load(f)
+                    return model
+                except Exception as pickle_error:
+                    st.warning(f"Warning: Model loading issue detected. This might be due to scikit-learn version differences.")
+                    st.warning(f"Error details: {str(pickle_error)}")
+                    # Try alternative loading method
+                    try:
+                        import joblib
+                        with open(model_path, 'rb') as f:
+                            model = joblib.load(f)
+                        return model
+                    except Exception as joblib_error:
+                        st.error(f"Failed to load model with both pickle and joblib: {str(joblib_error)}")
+                        return None
         
         st.error("Model file 'Diabetes-Prediction-ML-Model.sav' not found. Please ensure the model file is in the same directory as this app.")
         return None
