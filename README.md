@@ -16,7 +16,7 @@ By harnessing the capabilities of machine learning, this project aims to enhance
 
 <hr>
 
-➲ **Used Technologies:** <br>
+## ➲ **Used Technologies:** <br>
 Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
 <br><br>
 
