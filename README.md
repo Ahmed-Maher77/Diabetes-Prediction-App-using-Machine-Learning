@@ -6,42 +6,38 @@ Using a dataset containing historical patient information, advanced machine lear
 
 By harnessing the capabilities of machine learning, this project aims to enhance diabetes diagnosis, facilitate early intervention, and ultimately contribute to better healthcare outcomes for individuals at risk of this prevalent disease.
 
-<br>
+<hr>
+
+🌐**Demo (Live Preview):** <a href="https://mlwindturbine.pythonanywhere.com/" target="_blank">https://mlwindturbine.pythonanywhere.com/</a> 
+<br/><br/>
+➲ **Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
+<br/><br/>
+🌐**Watch Video on LinkedIn:** <a href="https://video-link.com" target="_blank">https://video-link.com</a> 
+
+<hr>
 
 ➲ **Used Technologies:** <br>
 Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
 <br><br>
-➲ **Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
-<br>
 
-## 🚀 Deployment Options
+<hr>
 
-### 1. Streamlit Cloud (Recommended)
+## 👀 Website Preview:
+<a href="website-url" title="demo">
+  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+</a>
 
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account
-4. Select your repository and main branch
-5. Deploy! Your app will be live at `https://your-app-name.streamlit.app`
+<hr>
 
-### 2. Heroku
 
-1. Create a `Procfile` with: `web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0`
-2. Create a `setup.sh` file for configuration
-3. Deploy to Heroku using Git
-
-### 3. Railway
-
-1. Connect your GitHub repository
-2. Railway will automatically detect it's a Streamlit app
-3. Deploy with one click
-
-### 4. Local Development
-
+### 📥 Installation Instructions for Local Setup:
+To download and run this project locally:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+<hr>
 
 ## 📁 Project Structure
 
@@ -53,3 +49,12 @@ Diabetes Prediction App/
 ├── style.css                # Custom styling
 └── README.md               # Project documentation
 ```
+
+<hr/>
+
+## 📬 Contact & Contribution
+- 🧑‍💻 **Portfolio:** <a href="https://ahmedmaher-portfolio.vercel.app/" title="See My Portfolio">https://ahmedmaher-portfolio.vercel.app/</a>
+- 🔗 **LinkedIn:** <a href="https://www.linkedin.com/in/ahmed-maher-algohary" title="Contact via LinkedIn">https://www.linkedin.com/in/ahmed-maher-algohary</a>
+- 📧 **Email:** <a href="mailto:ahmedmaher.dev1@gmail.com" title="Contact via Email">ahmedmaher.dev1@gmail.com</a>
+
+> Contributions, suggestions, and bug reports are welcome. Feel free to open issues or pull requests.
