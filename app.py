@@ -8,9 +8,6 @@ import sys
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
 
-# Display scikit-learn version for debugging
-st.sidebar.info(f"scikit-learn version: {sklearn.__version__}")
-
 # Configure the page
 st.set_page_config(page_title="Diabetes Predictor", layout="wide")
 
