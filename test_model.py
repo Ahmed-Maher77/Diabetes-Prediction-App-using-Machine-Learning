@@ -1,38 +1,39 @@
+#!/usr/bin/env python3
+"""
+Test script to verify the model can be loaded properly
+"""
 import pickle
 import os
 import sys
 
 def test_model_loading():
-    """Test if the model file can be loaded successfully"""
+    """Test if the model can be loaded successfully"""
     try:
-        # Check if file exists
-        model_file = 'Diabetes-Prediction-ML-Model.sav'
-        if not os.path.exists(model_file):
-            print(f"ERROR: Model file '{model_file}' not found!")
-            print(f"Current directory: {os.getcwd()}")
-            print(f"Files in directory: {os.listdir('.')}")
-            return False
-        
         # Try to load the model
-        print(f"Attempting to load model from: {model_file}")
-        with open(model_file, 'rb') as f:
-            model = pickle.load(f)
+        model_path = 'Diabetes-Prediction-ML-Model.sav'
         
-        print("SUCCESS: Model loaded successfully!")
+        if not os.path.exists(model_path):
+            print(f"❌ Model file not found: {model_path}")
+            return False
+            
+        with open(model_path, 'rb') as f:
+            model = pickle.load(f)
+            
+        print("✅ Model loaded successfully!")
         print(f"Model type: {type(model)}")
         
-        # Test if model has predict method
-        if hasattr(model, 'predict'):
-            print("SUCCESS: Model has predict method")
-        else:
-            print("WARNING: Model does not have predict method")
+        # Test a simple prediction
+        import numpy as np
+        test_data = np.array([[1, 85, 66, 29, 0, 26.6, 0.351, 31]])
+        prediction = model.predict(test_data)
+        print(f"✅ Test prediction successful: {prediction}")
         
         return True
         
     except Exception as e:
-        print(f"ERROR loading model: {str(e)}")
-        print(f"Error type: {type(e)}")
+        print(f"❌ Error loading model: {str(e)}")
         return False
 
 if __name__ == "__main__":
-    test_model_loading() 
+    success = test_model_loading()
+    sys.exit(0 if success else 1) 
