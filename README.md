@@ -8,11 +8,11 @@ By harnessing the capabilities of machine learning, this project aims to enhance
 
 <hr>
 
-🌐**Demo (Live Preview):** <a href="https://mlwindturbine.pythonanywhere.com/" target="_blank">https://mlwindturbine.pythonanywhere.com/</a> 
+🌐**Demo (Live Preview):** <a href="https://ai-diabetes-predictor-app.streamlit.app/" target="_blank">https://ai-diabetes-predictor-app.streamlit.app</a> 
 <br/><br/>
 ➲ **Notebook (ML Code):** <a href="https://www.kaggle.com/code/ahmedmaheralgohary/diabetes-prediction" target="_blank">kaggle.com/code/ahmedmaheralgohary/diabetes-prediction</a>
 <br/><br/>
-🌐**Watch Video on LinkedIn:** <a href="https://video-link.com" target="_blank">https://video-link.com</a> 
+🎥**Watch Video on LinkedIn:** <a href="" target="_blank">coming soon</a> 
 
 <hr>
 
@@ -23,7 +23,7 @@ Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matpl
 <hr>
 
 ## 👀 Website Preview:
-<a href="website-url" title="demo">
+<a href="https://ai-diabetes-predictor-app.streamlit.app/" title="demo">
   <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
 </a>
 
