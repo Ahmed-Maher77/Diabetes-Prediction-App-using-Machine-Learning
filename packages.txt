@@ -1,0 +1,2 @@
+# System packages to install before Python dependencies
+# This helps avoid compilation warnings by using system packages when available 
