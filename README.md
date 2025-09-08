@@ -16,9 +16,25 @@ By harnessing the capabilities of machine learning, this project aims to enhance
 
 <hr>
 
-## ➲ **Used Technologies:** <br>
-Python - Streamlit - JavaScript - CSS - Python Libraries (pandas - numpy - matplotlib - seaborn - sklearn) - ML Algorithms (Logistic Regression - Support Vector Machine - Random Forest Classifier - Gradient Boosting Classifier)
-<br><br>
+## 💻 Used Technologies  
+
+- **Python** → Core language for backend logic and machine learning.  
+- **Streamlit** → Framework for building interactive ML web applications.  
+- **JavaScript** → Adds interactivity and client-side enhancements.  
+- **CSS** → Custom styling for modern, responsive UI.  
+
+**📊 Data & Machine Learning**  
+- **Python Libraries** →  
+  - **pandas, numpy**: Data manipulation and numerical analysis.  
+  - **matplotlib, seaborn**: Data visualization and exploratory analysis.  
+  - **scikit-learn**: ML model training, evaluation, and preprocessing.  
+
+- **ML Algorithms** → Implemented and evaluated multiple classifiers:  
+  - Logistic Regression  
+  - Support Vector Machine (SVM)  
+  - Random Forest Classifier  
+  - Gradient Boosting Classifier  
+
 
 <hr>
 
